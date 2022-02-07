@@ -1,0 +1,8 @@
+build
+target
+.gradle
+local.properties
+*.lock
+/app/snippets-api
+*.code-workspace
+.idea

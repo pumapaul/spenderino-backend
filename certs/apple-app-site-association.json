@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "NGAF3925JN.de.paulweber.spenderino",
+        "paths": [ "/r/*"]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": ["NGAF3925JN.de.paulweber.spenderino.Clip"]
+  }
+}

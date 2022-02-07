@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.paulweber.spenderino.android",
+      "sha256_cert_fingerprints": [
+        "A0:50:59:CA:1A:7B:BF:4A:F6:FD:C9:04:4F:2D:0D:37:9D:FD:36:55:06:60:66:FA:54:90:E0:9F:4D:C9:D3:EB",
+        "81:7A:F9:E6:FB:B1:A9:E6:1B:BF:D3:2E:8B:79:46:4F:52:8F:64:C5:A8:2C:E2:99:F3:42:D9:EE:20:85:82:7E"
+      ]
+    }
+  }
+]

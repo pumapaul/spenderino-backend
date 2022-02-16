@@ -120,7 +120,7 @@ fun Application.registerUserRoutes() {
             post("/login") {
                 val params = call.receive<LoginParameters>()
 
-                userStore.find { it is User.Registered && it.email == params.email }?.let {
+                userStore.find { it is User.Registered && it.email.lowercase() == params.email.lowercase() }?.let {
                     val registeredUser = it as User.Registered
                     val result = BCrypt.verifyer().verify(params.password.toCharArray(), registeredUser.hashedPassword)
                     if (result.verified) {
